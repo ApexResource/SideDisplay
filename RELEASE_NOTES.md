@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.1 (2026-02-13)
+
+- Minor fix
+
 ## v1.0.0 (2026-02-13)
 
 - First stable release
