@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.4 (2026-02-13)
+
+- Stability improvements
+
 ## v1.0.1 (2026-02-13)
 
 - Minor fix
