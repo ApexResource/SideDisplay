@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.0 (2026-02-13)
+
+- First stable release
+
 ## v0.10.7 (2026-02-13)
 
 - Add update check and download feature
