@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.4.0 (2026-02-22)
+
+### New Features
+- **Touch Control** — Control your macOS directly by touching the Tesla Display. Tap, scroll, and interact with your Mac through the Tesla browser screen.
+
 ## v1.3.1 (2026-02-20)
 
 - Minor bug fixes
