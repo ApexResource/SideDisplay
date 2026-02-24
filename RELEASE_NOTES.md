@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.4.1 (2026-02-24)
+
+- macOS 15 (Sequoia) support
+
 ## v1.4.0 (2026-02-22)
 
 ### New Features
