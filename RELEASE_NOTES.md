@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.5.1 (2026-02-26)
+
+### New Features
+- **Multi-Display Support** — Extend up to 3 monitors simultaneously. Stream multiple screens to Tesla's web browser as well as any WebRTC-compatible browser. Use tablets like iPad for an even wider workspace.
+
 ## v1.4.1 (2026-02-24)
 
 - macOS 15 (Sequoia) support
