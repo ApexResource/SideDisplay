@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.8.1 (2026-03-17)
+
+### Improvements
+- **Enhanced Diagnostic Report** — Now includes app version, macOS version, and server status for more accurate troubleshooting.
+
 ## v1.8.0 (2026-03-17)
 
 ### New Features
