@@ -1,5 +1,11 @@
 # Release Notes
 
+## v1.8.0 (2026-03-17)
+
+### New Features
+- **Faster Connection** — Extended monitor connections are now significantly faster and more reliable.
+- **Diagnostic Report** — Submit diagnostic reports directly from the app with optional email for follow-up support.
+
 ## v1.7.0 (2026-03-08)
 
 ### New Features
