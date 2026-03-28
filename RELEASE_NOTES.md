@@ -1,5 +1,23 @@
 # Release Notes
 
+## v1.9.0 (2026-03-29)
+
+### New Features
+- **Per-Display Settings** — Each display now has independent configuration for resolution mode, scale, and auto-fullscreen. Manage displays via compact card UI with popover editor.
+- **Display Selection Flow** — New display selection screen lets you choose which display to view after connecting. PIN verification now happens before display selection for added security.
+- **Connection Status Redesign** — New clear status flow: Idle → Starting → Ready → Connected. Connected state shows active client count out of total displays.
+- **Improved Scaling** — New scale options (1x / 1.25x / 1.5x / 1.75x) with browser-side GPU scaling for sharper output at higher scales.
+- **File-Based Diagnostic Logging** — New diagnostic logging system captures app settings, network interfaces, bridge, DHCP, firewall rules, virtual displays, and DNS status on start.
+
+### Improvements
+- **Single Admin Prompt** — Bridge and DNS setup now combined into one password prompt instead of two.
+- **Better Error Messages** — User-friendly errors for port conflicts and invalid license keys.
+- **PIN Verification UX** — Red border with shake animation on incorrect PIN entry.
+
+### Bug Fixes
+- **WebRTC Stability** — Fixed scroll causing WebRTC disconnect due to sendBeacon flooding. Handle 'disconnected' state to prevent infinite reconnect loop.
+- **Client Count** — Fixed connected client count not updating on browser or WebRTC disconnect.
+
 ## v1.8.1 (2026-03-17)
 
 ### Improvements
