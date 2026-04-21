@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.9.1 (2026-04-21)
+
+### Bug Fixes
+- **Internet Sharing Compatibility** — Fixed NAT issue that caused "internet unreachable" errors on Tesla and other connected devices.
+
 ## v1.9.0 (2026-03-29)
 
 ### New Features
