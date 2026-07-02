@@ -1,5 +1,17 @@
 # Release Notes
 
+## v1.10.0 (2026-07-03)
+
+### New Features
+- Redesign Connection mode: choose "Same network" or a single "Hotspot" with a "Share my internet" / "Screen only" option
+- Screen-only hotspot (loopback) now works with Tesla — use it as a second display with no internet or tethering required
+- Make the loopback adapter a one-time install that persists across sessions and reboots (no admin prompt every session); add a Remove action in Connection mode that also clears it from the System Settings Internet Sharing list
+- Show live connection prerequisites (internet source, Wi-Fi, Internet Sharing) and verify Internet Sharing shares from the mode's expected source before enabling Start
+- Rebuild the Getting Started guide around the new connection modes (Tesla flows start by resetting the car's Wi-Fi)
+
+### Improvements
+- Various DNS and hotspot stability fixes
+
 ## v1.9.1 (2026-04-21)
 
 ### Bug Fixes
