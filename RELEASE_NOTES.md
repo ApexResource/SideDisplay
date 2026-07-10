@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.10.0.1 (2026-07-11, beta)
+
+### New Features
+- Add a "Bypass connectivity check" option under Hotspot → "Share my internet": SideDisplay answers Tesla/Apple connectivity-check probes locally, so a connected device stays "connected" and the SideDisplay screen loads even while real internet is shared. Works independently of "Allow connected devices to use the internet".
+
 ## v1.10.0 (2026-07-03)
 
 ### New Features
