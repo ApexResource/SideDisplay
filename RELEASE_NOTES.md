@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.10.1 (2026-07-18)
+
+### New Features
+- Add a "Bypass connectivity check" option under Hotspot → "Share my internet": SideDisplay answers Tesla/Apple connectivity-check probes locally, so a connected device stays "connected" and the SideDisplay screen loads even while real internet is shared — independently of "Allow connected devices to use the internet". The option is locked ON when internet is not shared.
+
+### Bug Fixes
+- Fix "Same network" mode serving the fake connectivity-check page instead of the SideDisplay screen when connecting to the Mac's LAN IP
+- Forward DNS to the system resolver instead of a hardcoded 8.8.8.8, respecting the Mac's configured DNS
+
 ## v1.10.0.1 (2026-07-11, beta)
 
 ### New Features
