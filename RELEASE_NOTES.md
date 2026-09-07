@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.10.1.1 (2026-09-07, beta)
+
+### Bug Fixes
+- Never fall back to a hardcoded public DNS resolver: SideDisplay now uses only your Mac's own resolvers (IPv6 included, covering IPv6-only cellular uplinks), improving reliability on cellular tethering and networks that block or hijack third-party DNS
+
+### Improvements
+- Much richer connection diagnostics for "internet unreachable" reports: logs now capture DNS resolver selection (and why any resolver was skipped), the routing table, and live firewall/NAT state
+
 ## v1.10.1 (2026-07-18)
 
 ### New Features
