@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.10.1.2 (2026-09-08, beta)
+
+### Bug Fixes
+- Fix "Share my internet" failing on IPv6-only cellular uplinks (introduced in v1.10.1.1): the carrier's link-local DNS resolver was rejected, leaving the hotspot with no upstream — it is now used with its network zone attached, so connected devices resolve and validate against real servers again
+
 ## v1.10.1.1 (2026-09-07, beta)
 
 ### Bug Fixes
