@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.10.1.3 (2026-09-18, beta)
+
+### Bug Fixes
+- Harden against the "Virtual display not found for capture" error: SideDisplay now detaches its virtual display from any mirroring that macOS re-applies after the display is created (a mirrored display cannot be captured), and waits up to 5 seconds (was 2) for the display to become available
+
 ## v1.10.1.2 (2026-09-08, beta)
 
 ### Bug Fixes
