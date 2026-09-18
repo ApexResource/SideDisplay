@@ -1,5 +1,16 @@
 # Release Notes
 
+## v1.10.1.4 (2026-09-19, beta)
+
+### New Features
+- Network setup no longer asks for your password every session. Approve SideDisplay once under System Settings › General › Login Items, and starting and stopping just works. If you skip the approval, nothing changes — you are asked for the password as before.
+
+### Bug Fixes
+- Harden against the "Virtual display not found for capture" error: SideDisplay now detaches its virtual display from any mirroring that macOS re-applies after the display is created (a mirrored display cannot be captured), and waits up to 5 seconds (was 2) for it to become available
+
+### Improvements
+- Richer diagnostics for display and network start-up failures
+
 ## v1.10.1.3 (2026-09-18, beta)
 
 ### Bug Fixes
