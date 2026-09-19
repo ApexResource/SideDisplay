@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.11.0 (2026-09-20)
+
+### New Features
+- Network setup no longer asks for your password every session. Approve SideDisplay once under System Settings › General › Login Items, and starting and stopping just works. If you skip the approval, nothing changes — you are asked for the password as before.
+
+### Bug Fixes
+- Fix screen sharing failing to start with "Virtual display not found for capture": SideDisplay now detaches its virtual display from any mirroring that macOS re-applies after the display is created (a mirrored display cannot be captured), and waits up to 5 seconds (was 2) for it to become available
+- Fix "Share my internet" not working on IPv6-only cellular connections (NAT64/CLAT)
+
+### Improvements
+- Use only the Mac's own DNS servers, so setups with corporate, school, or custom DNS work more reliably
+- Richer diagnostics for display and network start-up failures
+
 ## v1.10.1.4 (2026-09-19, beta)
 
 ### New Features
