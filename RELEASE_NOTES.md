@@ -1,5 +1,17 @@
 # Release Notes
 
+## v1.11.1 (2026-10-01)
+
+### Bug Fixes
+- Fix the car's screen staying blank until you moved a window onto the virtual display. Most noticeable with a custom resolution.
+- Fix the picture occasionally showing a black band down its right-hand side, and taking several extra seconds to appear.
+- Fix the image being softer than it should be at custom resolutions wider than 1920.
+- Keep the connection alive on a weak network by lowering the frame rate instead of dropping out.
+- Fix touch landing in the wrong place.
+
+### New Features
+- New 0.75x scale fits more on screen at smaller text.
+
 ## v1.11.0 (2026-09-20)
 
 ### New Features
